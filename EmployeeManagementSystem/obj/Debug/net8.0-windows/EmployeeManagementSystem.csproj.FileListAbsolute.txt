@@ -1,0 +1,17 @@
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.FrmMotherForm.resources
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.csproj.GenerateResource.cache
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.AssemblyInfoInputs.cache
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.AssemblyInfo.cs
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\EmployeeManagementSystem.exe
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\EmployeeManagementSystem.deps.json
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\EmployeeManagementSystem.runtimeconfig.json
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\EmployeeManagementSystem.dll
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\bin\Debug\net8.0-windows\EmployeeManagementSystem.pdb
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.dll
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\refint\EmployeeManagementSystem.dll
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.pdb
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.genruntimeconfig.cache
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\ref\EmployeeManagementSystem.dll
+C:\Users\CatherineJoySalazar\Documents\Salazar-IT2_IPT\SO2\activity\EmployeeManagementSystem\EmployeeManagementSystem\obj\Debug\net8.0-windows\EmployeeManagementSystem.frmMasterData.resources
