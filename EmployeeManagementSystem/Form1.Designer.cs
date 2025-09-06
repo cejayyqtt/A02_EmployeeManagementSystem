@@ -42,7 +42,8 @@
             // 
             // pnlSideMenu
             // 
-            pnlSideMenu.BackColor = Color.FromArgb(101, 89, 248);
+            pnlSideMenu.Anchor = AnchorStyles.Left;
+            pnlSideMenu.BackColor = SystemColors.ActiveCaption;
             pnlSideMenu.Controls.Add(btnAddEmp);
             pnlSideMenu.Controls.Add(btnMasterData);
             pnlSideMenu.Location = new Point(0, 59);
@@ -53,6 +54,7 @@
             // 
             // btnAddEmp
             // 
+            btnAddEmp.BackColor = Color.Gainsboro;
             btnAddEmp.Dock = DockStyle.Top;
             btnAddEmp.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAddEmp.Location = new Point(0, 60);
@@ -60,10 +62,11 @@
             btnAddEmp.Size = new Size(222, 60);
             btnAddEmp.TabIndex = 1;
             btnAddEmp.Text = "👥 ADD EMPLOYEE";
-            btnAddEmp.UseVisualStyleBackColor = true;
+            btnAddEmp.UseVisualStyleBackColor = false;
             // 
             // btnMasterData
             // 
+            btnMasterData.BackColor = Color.Gainsboro;
             btnMasterData.Dock = DockStyle.Top;
             btnMasterData.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnMasterData.Location = new Point(0, 0);
@@ -71,11 +74,11 @@
             btnMasterData.Size = new Size(222, 60);
             btnMasterData.TabIndex = 0;
             btnMasterData.Text = "📁 MASTER DATA";
-            btnMasterData.UseVisualStyleBackColor = true;
+            btnMasterData.UseVisualStyleBackColor = false;
             // 
             // pnlTitleBar
             // 
-            pnlTitleBar.BackColor = Color.FromArgb(101, 89, 248);
+            pnlTitleBar.BackColor = SystemColors.ActiveCaption;
             pnlTitleBar.Controls.Add(btnClose);
             pnlTitleBar.Controls.Add(btnMaximize);
             pnlTitleBar.Controls.Add(btnMinimize);
@@ -89,6 +92,7 @@
             // btnClose
             // 
             btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnClose.BackColor = Color.Gainsboro;
             btnClose.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnClose.ForeColor = SystemColors.ControlText;
             btnClose.Location = new Point(782, 12);
@@ -96,12 +100,13 @@
             btnClose.Size = new Size(34, 28);
             btnClose.TabIndex = 2;
             btnClose.Text = "🗙";
-            btnClose.UseVisualStyleBackColor = true;
+            btnClose.UseVisualStyleBackColor = false;
             btnClose.Click += btnClose_Click;
             // 
             // btnMaximize
             // 
             btnMaximize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMaximize.BackColor = Color.Gainsboro;
             btnMaximize.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnMaximize.ForeColor = SystemColors.ControlText;
             btnMaximize.Location = new Point(743, 12);
@@ -109,12 +114,13 @@
             btnMaximize.Size = new Size(34, 28);
             btnMaximize.TabIndex = 1;
             btnMaximize.Text = "🗖";
-            btnMaximize.UseVisualStyleBackColor = true;
+            btnMaximize.UseVisualStyleBackColor = false;
             btnMaximize.Click += btnMaximize_Click;
             // 
             // btnMinimize
             // 
             btnMinimize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnMinimize.BackColor = Color.Gainsboro;
             btnMinimize.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnMinimize.ForeColor = SystemColors.ControlText;
             btnMinimize.Location = new Point(703, 12);
@@ -122,25 +128,26 @@
             btnMinimize.Size = new Size(34, 28);
             btnMinimize.TabIndex = 0;
             btnMinimize.Text = "_";
-            btnMinimize.UseVisualStyleBackColor = true;
+            btnMinimize.UseVisualStyleBackColor = false;
             btnMinimize.Click += btnMinimize_Click;
             // 
             // pnlStage
             // 
-            pnlStage.Location = new Point(425, 202);
+            pnlStage.BackColor = Color.Gainsboro;
+            pnlStage.Dock = DockStyle.Fill;
+            pnlStage.Location = new Point(0, 0);
             pnlStage.Name = "pnlStage";
-            pnlStage.Size = new Size(200, 100);
+            pnlStage.Size = new Size(828, 497);
             pnlStage.TabIndex = 2;
-            pnlStage.Paint += pnlStage_Paint;
             // 
             // FrmMotherForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(828, 497);
-            Controls.Add(pnlStage);
-            Controls.Add(pnlTitleBar);
             Controls.Add(pnlSideMenu);
+            Controls.Add(pnlTitleBar);
+            Controls.Add(pnlStage);
             Name = "FrmMotherForm";
             Text = "Form1";
             Load += FrmMotherForm_Load;
