@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Runtime.InteropServices;
 
 namespace EmployeeManagementSystem
 {
     internal class Common
     {
-        public const int WM_NCLBUTTONDOWN = 0x41;
+        public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
 
         [DllImportAttribute("user32.dll")]

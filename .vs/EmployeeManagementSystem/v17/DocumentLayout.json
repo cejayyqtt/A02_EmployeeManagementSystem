@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\salazar-it2_ipt\\so2\\activity\\employeemanagementsystem\\employeemanagementsystem\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\salazar-it2_ipt\\so2\\activity\\employeemanagementsystem\\employeemanagementsystem\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\frmmasterdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\salazar-it2_ipt\\so2\\activity\\employeemanagementsystem\\employeemanagementsystem\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\salazar-it2_ipt\\so2\\activity\\employeemanagementsystem\\employeemanagementsystem\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|d:\\salazar-it2_ipt\\so2\\activity\\employeemanagementsystem\\employeemanagementsystem\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3510AD3A-1612-4CB7-8B55-EBE0CBD2D229}|EmployeeManagementSystem\\EmployeeManagementSystem.csproj|solutionrelative:employeemanagementsystem\\frmaddemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Common.cs",
+              "DocumentMoniker": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\Common.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Common.cs",
+              "ToolTip": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\Common.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\Common.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T09:53:39.751Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmAddEmployee.cs",
+              "DocumentMoniker": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\frmAddEmployee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\frmAddEmployee.cs",
+              "ToolTip": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\frmAddEmployee.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\frmAddEmployee.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T09:18:37.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAddEmployee.cs [Design]",
+              "DocumentMoniker": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\frmAddEmployee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\frmAddEmployee.cs",
+              "ToolTip": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\frmAddEmployee.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\frmAddEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T09:17:43.445Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMasterData.cs",
+              "DocumentMoniker": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\frmMasterData.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\frmMasterData.cs",
+              "ToolTip": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\frmMasterData.cs",
+              "RelativeToolTip": "EmployeeManagementSystem\\frmMasterData.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAqwEMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:11:36.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMasterData.cs [Design]",
+              "DocumentMoniker": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\frmMasterData.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\frmMasterData.cs",
+              "ToolTip": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\frmMasterData.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\frmMasterData.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:11:34.312Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "EmployeeManagementSystem\\Form1.cs",
+              "ToolTip": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\Form1.cs [Design]",
+              "RelativeToolTip": "EmployeeManagementSystem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T10:01:24.358Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
