@@ -42,43 +42,47 @@
             // 
             // pnlSideMenu
             // 
-            pnlSideMenu.Anchor = AnchorStyles.Left;
-            pnlSideMenu.BackColor = SystemColors.ActiveCaption;
+            pnlSideMenu.BackColor = Color.FromArgb(54, 116, 181);
             pnlSideMenu.Controls.Add(btnAddEmp);
             pnlSideMenu.Controls.Add(btnMasterData);
-            pnlSideMenu.Location = new Point(0, 59);
+            pnlSideMenu.Dock = DockStyle.Left;
+            pnlSideMenu.Location = new Point(0, 60);
             pnlSideMenu.Name = "pnlSideMenu";
-            pnlSideMenu.Size = new Size(222, 438);
+            pnlSideMenu.Size = new Size(222, 437);
             pnlSideMenu.TabIndex = 0;
             pnlSideMenu.Paint += pnlSideMenu_Paint;
             // 
             // btnAddEmp
             // 
-            btnAddEmp.BackColor = Color.Gainsboro;
+            btnAddEmp.BackColor = Color.FromArgb(87, 143, 202);
             btnAddEmp.Dock = DockStyle.Top;
-            btnAddEmp.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAddEmp.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            btnAddEmp.ForeColor = Color.White;
             btnAddEmp.Location = new Point(0, 60);
             btnAddEmp.Name = "btnAddEmp";
             btnAddEmp.Size = new Size(222, 60);
             btnAddEmp.TabIndex = 1;
             btnAddEmp.Text = "👥 ADD EMPLOYEE";
             btnAddEmp.UseVisualStyleBackColor = false;
+            btnAddEmp.Click += btnAddEmp_Click;
             // 
             // btnMasterData
             // 
-            btnMasterData.BackColor = Color.Gainsboro;
+            btnMasterData.BackColor = Color.FromArgb(87, 143, 202);
             btnMasterData.Dock = DockStyle.Top;
-            btnMasterData.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnMasterData.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold);
+            btnMasterData.ForeColor = Color.White;
             btnMasterData.Location = new Point(0, 0);
             btnMasterData.Name = "btnMasterData";
             btnMasterData.Size = new Size(222, 60);
             btnMasterData.TabIndex = 0;
-            btnMasterData.Text = "📁 MASTER DATA";
+            btnMasterData.Text = "🗃️ MASTER DATA";
             btnMasterData.UseVisualStyleBackColor = false;
+            btnMasterData.Click += btnMasterData_Click;
             // 
             // pnlTitleBar
             // 
-            pnlTitleBar.BackColor = SystemColors.ActiveCaption;
+            pnlTitleBar.BackColor = Color.FromArgb(54, 116, 181);
             pnlTitleBar.Controls.Add(btnClose);
             pnlTitleBar.Controls.Add(btnMaximize);
             pnlTitleBar.Controls.Add(btnMinimize);
@@ -92,7 +96,7 @@
             // btnClose
             // 
             btnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnClose.BackColor = Color.Gainsboro;
+            btnClose.BackColor = SystemColors.Control;
             btnClose.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnClose.ForeColor = SystemColors.ControlText;
             btnClose.Location = new Point(782, 12);
@@ -106,7 +110,7 @@
             // btnMaximize
             // 
             btnMaximize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnMaximize.BackColor = Color.Gainsboro;
+            btnMaximize.BackColor = SystemColors.Control;
             btnMaximize.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnMaximize.ForeColor = SystemColors.ControlText;
             btnMaximize.Location = new Point(743, 12);
@@ -120,7 +124,7 @@
             // btnMinimize
             // 
             btnMinimize.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnMinimize.BackColor = Color.Gainsboro;
+            btnMinimize.BackColor = SystemColors.Control;
             btnMinimize.Font = new Font("Showcard Gothic", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnMinimize.ForeColor = SystemColors.ControlText;
             btnMinimize.Location = new Point(703, 12);
@@ -133,11 +137,10 @@
             // 
             // pnlStage
             // 
-            pnlStage.BackColor = Color.Gainsboro;
             pnlStage.Dock = DockStyle.Fill;
-            pnlStage.Location = new Point(0, 0);
+            pnlStage.Location = new Point(222, 60);
             pnlStage.Name = "pnlStage";
-            pnlStage.Size = new Size(828, 497);
+            pnlStage.Size = new Size(606, 437);
             pnlStage.TabIndex = 2;
             // 
             // FrmMotherForm
@@ -145,11 +148,11 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(828, 497);
+            Controls.Add(pnlStage);
             Controls.Add(pnlSideMenu);
             Controls.Add(pnlTitleBar);
-            Controls.Add(pnlStage);
             Name = "FrmMotherForm";
-            Text = "Form1";
+            Text = "Employee Management System";
             Load += FrmMotherForm_Load;
             pnlSideMenu.ResumeLayout(false);
             pnlTitleBar.ResumeLayout(false);

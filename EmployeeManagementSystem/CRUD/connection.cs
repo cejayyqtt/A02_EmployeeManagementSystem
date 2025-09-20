@@ -9,7 +9,7 @@ namespace EmployeeManagementSystem.CRUDE
 {
     internal class Connection
     {
-        static string dbPath = @"C:\LOCALDB\EMS.mdb";
+        static string dbPath = @"C:\LOCALDB\EMS.accdb";
         public static string conString = $"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = {dbPath};";
 
         public static OleDbConnection mysqldb ()

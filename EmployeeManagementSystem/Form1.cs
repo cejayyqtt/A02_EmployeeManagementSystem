@@ -75,5 +75,20 @@ namespace EmployeeManagementSystem
             childForm.Show();
 
         }
+
+        private void btnMasterData_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmMasterData());
+        }
+
+        private void pnlStage_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnAddEmp_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmAddEmployee());
+        }
     }
 }

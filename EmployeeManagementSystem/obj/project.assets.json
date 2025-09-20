@@ -290,11 +290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CatherineJoySalazar\\Documents\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
+      "projectUniqueName": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
       "projectName": "EmployeeManagementSystem",
-      "projectPath": "C:\\Users\\CatherineJoySalazar\\Documents\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
+      "projectPath": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\EmployeeManagementSystem.csproj",
       "packagesPath": "C:\\Users\\CatherineJoySalazar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CatherineJoySalazar\\Documents\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\obj\\",
+      "outputPath": "D:\\Salazar-IT2_IPT\\SO2\\activity\\EmployeeManagementSystem\\EmployeeManagementSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\CatherineJoySalazar\\AppData\\Roaming\\NuGet\\NuGet.Config",
