@@ -78,6 +78,37 @@ namespace EmployeeManagementSystem.CRUD
             }
         }
 
+        public static bool RETRIEVECBO(ComboBox CBO, string SQL, string displayMember, string valueMember)
+        {
+            con.Open();
+            cmd = new OleDbCommand();
+            {
+                var withBlock = cmd;
+                withBlock.Connection = con;
+                withBlock.CommandText = SQL;
+            }
+            da = new OleDbDataAdapter();
+            da.SelectCommand = cmd;
+            dt = new DataTable();
+            da.Fill(dt);
+            {
+                var withBlock = CBO;
+                withBlock.DataSource = dt;
+                withBlock.DisplayMember = displayMember;
+                withBlock.ValueMember = valueMember;
+                withBlock.SelectedIndex = -1;
+            }
+            if (dt.Rows.Count > 0)
+            {
+                con.Close();
+                return true;
+            }
+            else
+            {
+                con.Close();
+                return false;
+            }
+        }
         public static bool CUD (string sql)
         {
             con.Open();
