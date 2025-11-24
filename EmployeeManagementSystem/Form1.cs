@@ -18,6 +18,11 @@ namespace EmployeeManagementSystem
             this.ControlBox = false;
             this.DoubleBuffered = true;
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+
+            lblFullName.Text = frmLoginForm.fullName;
+            lblSection.Text = frmLoginForm.section;
+            lblAge.Text = frmLoginForm.age;
+
         }
 
         private void pnlSideMenu_Paint(object sender, PaintEventArgs e)
@@ -28,6 +33,20 @@ namespace EmployeeManagementSystem
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void CenterLabelInPanel()
+        {
+            int totalHeight = lblEms.Height + lblSub.Height;
+
+            int centerX = (pnlStage.Width - Math.Max(lblEms.Width, lblSub.Width)) / 2;
+            int startY = (pnlStage.Height - totalHeight) / 2;
+
+            lblEms.Left = centerX;
+            lblEms.Top = startY;
+
+            lblSub.Left = (pnlStage.Width - lblSub.Width) / 2;
+            lblSub.Top = lblEms.Bottom + 10;
         }
 
         private void btnMinimize_Click(object sender, EventArgs e)
@@ -78,6 +97,7 @@ namespace EmployeeManagementSystem
 
         private void btnMasterData_Click(object sender, EventArgs e)
         {
+            clearAllDetails();
             OpenChildForm(new frmMasterData());
         }
 
@@ -88,7 +108,34 @@ namespace EmployeeManagementSystem
 
         private void btnAddEmp_Click(object sender, EventArgs e)
         {
+            clearAllDetails();
             OpenChildForm(new frmAddEmployee());
+        }
+
+        private void lblTitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clearAllDetails()
+        {
+            frmMasterData.selectedTransaction = "";
+            frmMasterData.EmployeeNumber = "";
+            frmMasterData.RequestorName = "";
+            frmMasterData.Section = "";
+            frmMasterData.LocalNumber = "";
+            frmMasterData.EmailAddress = "";
+
+        }
+
+        private void btnSettings_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new frmSettings());
+        }
+
+        private void lblName_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
